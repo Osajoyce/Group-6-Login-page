@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Chivo', sans-serif;
+}
+.container{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+.container img{
+    width: 15rem;
+    height: 26rem;
+}
+.form{
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+.submit{
+    width: 8rem;
+    height: 2rem;
+    background-color: #008753;
+    border: 0px;
+    margin-top: 2rem;
+    color: white;
+    border-radius: 0.5rem;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+#red a{
+    color: #FF2F2F;
+    text-decoration: none;
+    position: relative;
+    left: 12rem;
+}
+.email{
+    margin-bottom: 2rem;
+}
+#boxes{
+    width: 20rem;
+    height: 2rem;
+}
+.end{
+   text-align: center;
+}
+.form h2{
+    color: #008753;
+    margin-bottom: 2rem;
+}
+.link a{
+    text-decoration: none;
+    color: #FE9C0A;
+}
+h6{
+    margin-top: 1rem;
+}
+i{
+    margin-top: 0.2rem;
+    margin-right: 0.5rem;
+}
+#fb{
+    color: blue;
+}
+@media screen and (max-width: 700px)
+{
+    .container{
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+    .form{
+        margin-left: 0;
+    }
+}
